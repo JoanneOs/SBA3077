@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triway Transportation LLC - Driver Dashboard</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+ <!-- Navbar -->
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Triway Transportation LLC</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Dashboard</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Routes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Truck Status</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Amazon Loads</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container my-4">
+    <header class="text-center">
+        <h1>Driver Dashboard</h1>
+        <p class="lead">Track your current route, truck status, Amazon loads, and much more.</p>
+    </header>
+
+    <div class="row">
+        <!-- Current Job Section -->
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <div class="card-header bg-success text-white">
+                    <h3>Current Job</h3>
+                </div>
+                <div class="card-body">
+                    <p><strong>Route:</strong> San Antonio to Houston</p>
+                    <p><strong>Departure Time:</strong> 9:00 AM</p>
+                    <p><strong>Estimated Arrival:</strong> 4:00 PM</p>
+                    <button class="btn btn-warning">Track Route</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Location Tracking Section -->
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                
+                <div class="card-header bg-primary text-white">
+                    <h3>Location Tracking</h3>
+                </div>
+                <div class="card-body">
+                    <p><strong>Current Location:</strong> San Antonio, TX</p>
+                    <p><strong>Status:</strong> En Route</p>
+                    <button class="btn btn-info">Update Location</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <!-- Truck Status Section -->
+        <div class="col-md-12 mb-4">
+            <div class="card">
+                <div class="card-header bg-warning text-dark">
+                    <h3>Truck Status</h3>
+                </div>
+                <div class="card-body">
+                    <p><strong>Truck #2:</strong> Running Smoothly</p>
+                    <p><strong>Fuel Level:</strong> 80%</p>
+                    <p><strong>Last Maintenance:</strong> 2 weeks ago</p>
+                    <button class="btn btn-success">Check Status</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Amazon Load Section -->
+    <div class="row mt-4">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header bg-dark text-white">
+                    <h3>Amazon Load Details</h3>
+                </div>
+                <div class="card-body">
+                    <h5><strong>Current Amazon Load</strong></h5>
+                    <p><strong>Load Type:</strong> Fulfillment Center to Delivery Station</p>
+                    <p><strong>Delivery Window:</strong> 12:00 PM - 5:00 PM</p>
+                    <p><strong>Amazon Load ID:</strong> <span>#12345</span></p>
+                    <p><strong>Drop-off Location:</strong> 4567 Delivery Way, Houston, TX</p>
+                    <p><strong>Instructions:</strong> Ensure all packages are
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
