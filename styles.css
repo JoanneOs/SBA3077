@@ -51,3 +51,52 @@ body {
 /* align-items: center; */
 /* height: 100vh; Full viewport height */
 /* } */
+
+/* Style for the whole table (calculator layout) */
+table {
+    width: 200px;  /* Set the width of the calculator */
+    height: 300px; /* Set the height of the calculator */
+    text-align: center;  /* Center the text inside the buttons */
+    border: 5px solid pink;  /* Green border around the calculator */
+    margin: 20px auto;  /* Center the calculator on the page */
+}
+
+/* Style for table cells (buttons in the calculator) */
+th, td {
+    border: 1px solid blueviolet;  /* Red border around each button */
+    padding: 20px;  /* Space inside each button */
+}
+
+/* When hovering over a button, change its background and text color */
+/*td:hover {
+    background-color: orange;  /* Light red background 
+    color: white;   White text when hovered 
+}
+/* When hovering over a table cell (button) */
+/*td:hover {
+    background-color: lightcoral;  /* Change background color to light red */
+  /*  color: red;  /* Change text color to red */
+   /* font-size: 24px;  /* Increase font size */
+/*}
+
+/* Style for the display area at the top of the calculator */
+/*#display {
+    background-color: darkgray;  /* Gray background for the display */
+  /*  font-size: 24px;  /* Bigger text size for visibility */
+   /* padding: 20px;  /* Add some padding to make it look better */
+/*}*/
+
+/* General styling for the page */
+/* Hover effect for a single td element (button) */
+/* td:hover { */
+    /* background-color: rgb(5, 113, 52);  Change background to light red */
+    /* color: rgb(18, 17, 17);  Text color turns red */
+    /* font-size: 24px;  Make the number bigger */
+    /* transform: scale(1.1);  Scale the cell by 1.2x (make it bigger) */
+/* } */
+/* body { */
+    /* font-family: Arial, sans-serif;  Set a clean font for the page */
+/* background-color: whitesmoke; */
+/* margin: 0%; */
+/* } */
+
