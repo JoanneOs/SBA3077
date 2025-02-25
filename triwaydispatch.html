@@ -68,6 +68,17 @@
                                 <li><a class="dropdown-item" href="#">Help</a></li>
                             </ul>
                         </li>
+                         <!-- Dropdown for additional links if needed -->
+                         <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                More Options
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="#">Account Settings</a></li>
+                                <li><a class="dropdown-item" href="#">Help</a></li>
+                            </ul>
+                        </li>
                     </ul>
                     <!-- Search Form (Optional) -->
                     <form class="d-flex mt-3" role="search">
@@ -131,6 +142,10 @@
                 <!-- </div> -->
 
             </div>
+
+           
+
+            
             <!-- adding form -->
             <form class="p-3 border rounded shadow-sm" style="max-width: 400px; margin: right: ;;">
                 <div class="mb-2">
@@ -270,7 +285,27 @@
             </tr>
         </tbody>
     </table>
-
+ <!-- adding a section where we can send link for interested drivers -->
+<!-- Section to send link to drivers interested in working with Triway -->
+<div class="row mt-8">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Send Application to CDL Drivers</h5>
+                <p class="card-text">If a driver wants to work with Triway Transportation, you can send them an application link.</p>
+                <!-- Form to send application link -->
+                <form id="sendApplicationForm">
+                    <div class="mb-3">
+                        <label for="driverEmail" class="form-label">Driver's Email</label>
+                        <input type="email" class="form-control" id="driverEmail" placeholder="Enter driver's email" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Application Link</button>
+                </form>
+                <p id="emailStatus" class="mt-3"></p>
+            </div>
+        </div>
+    </div>
+</div>
 
 </body>
 
